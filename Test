@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+   string a; //Animal
+   float w1 = 0.0f; //A weight
+   float n = 0.0f; //A number
+   float h = 0.0f; //A height at the withers
+   float l = 0.0f; //A lenght
+   float w2 = 0.0f; //A widith
+   float ad = 0.0f; //Average dimension
+   float c = 0.0f; //Cube weight
+
+   cout << "Animal: ";
+   cin >> a;
+   cout << a << " weight in kg: ";
+   cin >> w1;
+   cout << a << "s number: ";
+   cin >> n;
+   cout << a << " height in meters: ";
+   cin >> h;
+   cout << a << " length in meters: ";
+   cin >> l
+   cout << a << " widith in meters: ";
+   cin >> w2
+
+    
+    
+     return 0;
+}
