@@ -7,7 +7,7 @@ oheight = input(object + "'s max height in meters: ")
 olenght = input(object + "'s max length in meters: ")
 owidth = input(object + "'s max width in meters: ")
 
-dimention = ((float(oheight) + float(olenght) + float(owidth)) / 3) * float(onumber)
+dimention = (((float(oheight) + float(olenght) + float(owidth)) / 3) * float(onumber)) / 3
 cside = (float(oheight) + float(olenght) + float(owidth)) / 3
 area = pow(float(dimention), 3)
 cweight = float(oweight) * float(onumber)
